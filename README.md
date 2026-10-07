@@ -31,6 +31,10 @@ This project is licensed under the Apache License 2.0.
 ## Requirements
 
 - Python 3.x
+- qiskit
+- qiskit-aer
+- qiskit-ibm-runtime
+- numpy
 
 ## Installation
 
