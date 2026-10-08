@@ -6,6 +6,22 @@ an example code of T-type-distillation
 This repository provides an example implementation of T-type
 distillation.
 
+## Repository Structure
+
+T-type-distillation/
+
+|-- README.md
+
+|-- LICENSE
+
+|-- requirements.txt
+
+|-- five_qubits_code_T_type_distillation.py
+
+|-- example_T_type_distillation.ipnb
+
+|-- tests/ |-- test_five_qubits_code_T_type_distillation.py
+
 ## Method
 
 Software
