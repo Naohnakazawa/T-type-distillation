@@ -3,13 +3,13 @@
 
 # Information of the local environment
 
-# python: 3.11.11
+# python: 3.11.13
 # jupyter notebook: 7.4.4
-# qiskit: 2.4.0
+# qiskit: 2.5.2
 # qiskit-aer: 0.17.2
-# qiskit-experiments: 0.13.0
+# qiskit-experiments: 0.14.2
 # qiskit-ibm-experiment: 0.4.8
-# qiskit-ibm-runtime: 0.46.1
+# qiskit-ibm-runtime: 0.50.0
 import qiskit
 
 import numpy as np
