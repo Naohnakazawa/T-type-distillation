@@ -39,7 +39,7 @@ iD = "IIIII"
 XZ_stab_label_list = ["XZZXI", "IXZZX", "XIXZZ", "ZXIXZ"]
 
 X_error_list = ["XIIII", "IXIII", "IIXII", "IIIXI","IIIIX"]
-Z_error_list = ["ZIIII", "IZIII", "IIZII", "IIIZI","ZIIIZ"]
+Z_error_list = ["ZIIII", "IZIII", "IIZII", "IIIZI","IIIIZ"]
 
 # 5 qubits code syndrome examples
 # the ordering of this sindrome bit strings are defined by the anciella qubits ordering (q_anc[3], q_anc[2], q_anc[1], q_anc[0])
