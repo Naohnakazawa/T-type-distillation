@@ -3,6 +3,9 @@ name: T-type distillation simulation
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   simulate:
     runs-on: ubuntu-latest
