@@ -31,6 +31,8 @@ jobs:
             --display-name "qiskit-stable-211"
 
       - name: Execute notebook
+        env:
+          SHOTS: "1000"
         run: |
           jupyter nbconvert \
             --to notebook \
