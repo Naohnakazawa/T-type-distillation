@@ -33,7 +33,7 @@ jobs:
       - name: Execute notebook
         env:
           AER_BACKEND: "simple"        
-          SHOTS: "1000"
+          SHOTS: "500"
         run: |
           jupyter nbconvert \
             --to notebook \
