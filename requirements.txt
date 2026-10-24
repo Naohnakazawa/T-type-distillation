@@ -1,5 +1,6 @@
 qiskit
 qiskit-aer
+qiskit-experiments
 qiskit-ibm-runtime
 matplotlib
 scipy
