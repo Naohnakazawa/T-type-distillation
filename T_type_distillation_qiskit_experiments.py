@@ -155,6 +155,7 @@ class TTypeDistillationAnalysis(BaseAnalysis):
                     if data_bits == "00000":
 
                         _accept_counts_check[phi_value] += value
+                        _error_counts[phi_value] += 0
 
                     elif data_bits == "00001":
 
