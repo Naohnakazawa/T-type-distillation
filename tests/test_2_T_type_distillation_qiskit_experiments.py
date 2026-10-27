@@ -43,7 +43,7 @@ def test_circuits_empty_parameter_list():
 
 class FakeExperimentData:
     """Minimal test double for the analysis input."""
- 
+
     def __init__(self, data):
         self._data = data
 
