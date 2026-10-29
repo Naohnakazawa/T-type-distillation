@@ -6,27 +6,11 @@ an example code of T-type-distillation
 This repository provides an example implementation of T-type
 distillation.
 
-## Repository Structure
-
-T-type-distillation/
-
-|-- README.md
-
-|-- LICENSE
-
-|-- requirements.txt
-
-|-- five_qubits_code_T_type_distillation.py
-
-|-- example_T_type_distillation.ipnb
-
-|-- tests/ |-- test_five_qubits_code_T_type_distillation.py
-
 ## Method
 
 Software
 
-This project is using Qiskit, including Qiskit Aer and Qiskit IBM Runtime.
+This project is using Qiskit, including Qiskit Aer, Qiskit IBM Runtime and Qiskit Experiments.
 
 References
 
@@ -42,15 +26,6 @@ DOI: 10.1103/PhysRevA.71.022316
 License
 
 This project is licensed under the Apache License 2.0.
-
-
-## Requirements
-
-- Python 3.x
-- qiskit
-- qiskit-aer
-- qiskit-ibm-runtime
-- numpy
 
 ## Installation
 
@@ -84,7 +59,6 @@ The circuits can be executed locally using Qiskit Aer:
 
 backend = AerSimulator()
 
-
 This mode does not require an IBM Quantum account or access to quantum hardware.
 
 2. IBM Quantum hardware
@@ -99,4 +73,3 @@ IBM Quantum account.
 
 Users must provide their own IBM Quantum credentials. No API key or
 other credentials are included in this repository.
-

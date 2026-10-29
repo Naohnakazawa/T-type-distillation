@@ -10,16 +10,10 @@
 # qiskit-experiments: 0.14.2
 # qiskit-ibm-experiment: 0.4.8
 # qiskit-ibm-runtime: 0.50.0
-import qiskit
 
 import numpy as np
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, transpile
-from qiskit.circuit import Parameter
-from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
-from qiskit.visualization import plot_histogram, plot_state_city
-from qiskit.quantum_info import Statevector, DensityMatrix, SparsePauliOp, Operator
-from qiskit_aer import AerSimulator
-from qiskit_ibm_runtime import Session, QiskitRuntimeService, SamplerV2 as Sampler
+from qiskit import QuantumCircuit
+from qiskit.quantum_info import Statevector, DensityMatrix
 
 # Check that the account has been saved properly
 # from qiskit_ibm_runtime import QiskitRuntimeService

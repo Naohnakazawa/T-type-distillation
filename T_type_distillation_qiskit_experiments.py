@@ -5,7 +5,6 @@ from typing import List, Optional, Sequence
 from collections import defaultdict
 from qiskit.providers.backend import Backend
 from qiskit_aer import AerSimulator
-from qiskit_aer.primitives import SamplerV2
 from qiskit_experiments.framework import BaseExperiment, Options
 
 # TTypeDistillationAnalysis()
@@ -21,7 +20,6 @@ from five_qubits_code_T_type_distillation import epsilon, \
                                                 func_p_out, \
                                                 func_error_out, \
                                                 initialize_data_qubits, \
-                                                decimal_to_base_3_number, \
                                                 t_type_dephasing_operation_5_qubits, \
                                                 initialize_state_ancilla_qubits, \
                                                 syndrome_4_ancillas_no_reset_decoding, \
